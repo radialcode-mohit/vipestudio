@@ -80,3 +80,71 @@
 .ff_gilroy {
   font-family: "Gilroy-Bold", sans-serif;
 }
+@media (min-width: 576px) {
+  :root {
+    /* font size  */
+    --fs-5xl: 72px;
+    --fs-4xl: 48px;
+    --fs-3xl: 40px;
+    --fs-2xl: 36px;
+    --fs-xl: 24px;
+    --fs-lg: 18px;
+    --fs-md: 16px;
+    --fs-sm: 14px;
+    /* color  */
+    --clr-white: #ffffff;
+    --clr-black: #000000;
+    --clr-blue: #6022ea;
+  }
+}
+@media (min-width: 768px) {
+  :root {
+    /* font size  */
+    --fs-5xl: 72px;
+    --fs-4xl: 48px;
+    --fs-3xl: 40px;
+    --fs-2xl: 36px;
+    --fs-xl: 24px;
+    --fs-lg: 18px;
+    --fs-md: 16px;
+    --fs-sm: 14px;
+    /* color  */
+    --clr-white: #ffffff;
+    --clr-black: #000000;
+    --clr-blue: #6022ea;
+  }
+}
+@media (min-width: 992px) {
+  :root {
+    /* font size  */
+    --fs-5xl: 72px;
+    --fs-4xl: 48px;
+    --fs-3xl: 40px;
+    --fs-2xl: 36px;
+    --fs-xl: 24px;
+    --fs-lg: 18px;
+    --fs-md: 16px;
+    --fs-sm: 14px;
+    /* color  */
+    --clr-white: #ffffff;
+    --clr-black: #000000;
+    --clr-blue: #6022ea;
+  }
+}
+@media (min-width: 1200px) {
+  :root {
+    /* font size  */
+    --fs-5xl: 72px;
+    --fs-4xl: 48px;
+    --fs-3xl: 40px;
+    --fs-2xl: 36px;
+    --fs-xl: 24px;
+    --fs-lg: 18px;
+    --fs-md: 16px;
+    --fs-sm: 14px;
+    /* color  */
+    --clr-white: #ffffff;
+    --clr-black: #000000;
+    --clr-blue: #6022ea;
+  }
+}

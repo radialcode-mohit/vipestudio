@@ -1,13 +1,82 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold?styles=20876,20877,20878,20879,20880");
+:root {
+  /* font size  */
+  --fs-5xl: 72px;
+  --fs-4xl: 48px;
+  --fs-3xl: 40px;
+  --fs-2xl: 36px;
+  --fs-xl: 24px;
+  --fs-lg: 18px;
+  --fs-md: 16px;
+  --fs-sm: 14px;
+  /* color  */
+  --clr-white: #ffffff;
+  --clr-black: #000000;
+  --clr-blue: #6022ea;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.clr_white {
+  color: var(--clr-white);
+}
+.clr_black {
+  color: var(--clr-white);
+}
+.clr_blue {
+  color: var(--clr-white);
+}
+.bg_blue {
+  background-color: var(--clr-blue);
+}
+.fs_5xl {
+  font-size: var(--fs-5xl);
+}
+.fs_4xl {
+  font-size: var(--fs-4xl);
+}
+.fs_3xl {
+  font-size: var(--fs-3xl);
+}
+.fs_2xl {
+  font-size: var(--fs-2xl);
+}
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+.fs_lg {
+  font-size: var(--fs-lg);
+}
+.fs_md {
+  font-size: var(--fs-md);
+}
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+.fw_100 {
+  font-weight: 100;
+}
+.fw_200 {
+  font-weight: 200;
+}
+.fw_300 {
+  font-weight: 300;
+}
+.fw_400 {
+  font-weight: 400;
+}
+.fw_500 {
+  font-weight: 500;
+}
+.fw_600 {
+  font-weight: 600;
+}
+.fw_700 {
+  font-weight: 700;
+}
+.fw_800 {
+  font-weight: 800;
+}
+.fw_900 {
+  font-weight: 900;
+}
+.ff_gilroy {
+  font-family: "Gilroy-Bold", sans-serif;
 }

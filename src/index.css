@@ -1,6 +1,27 @@
-@import url("https://fonts.cdnfonts.com/css/gilroy-bold?styles=20876,20877,20878,20879,20880");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.cdnfonts.com/css/konexy-personal-use?styles=109417");
+@font-face {
+  font-family: "gilroy400";
+  src: url(../src/assets/font/gilroyfont/Gilroy-Light.ttf);
+}
+
+@font-face {
+  font-family: "gilroy500";
+  src: url(../src/assets/font/gilroyfont/Gilroy-Medium.ttf);
+}
+
+@font-face {
+  font-family: "gilroy600";
+  src: url(../src/assets/font/gilroyfont/Gilroy-Bold.ttf);
+}
+
+@font-face {
+  font-family: "gilroy700";
+  src: url(../src/assets/font/gilroyfont/Gilroy-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "konexy";
+  src: url(../src/assets/font/KonexyPersonal/KonexyPersonalUse.otf);
+}
 
 :root {
   /* font size  */
@@ -17,10 +38,10 @@
   color: var(--clr-white) !important;
 }
 .clr_black {
-  color: var(--clr-white) !important;
+  color: var(--clr-black) !important;
 }
 .clr_blue {
-  color: var(--clr-white) !important;
+  color: var(--clr-blue) !important;
 }
 .bg_blue {
   background-color: var(--clr-blue) !important;
@@ -76,8 +97,23 @@
 .fw_900 {
   font-weight: 900 !important;
 }
-.ff_gilroy {
-  font-family: "Gilroy-Bold", sans-serif !important;
+.ff_gilroy_400 {
+  font-family: "gilroy400";
+}
+.ff_gilroy_500 {
+  font-family: "gilroy500";
+}
+.ff_gilroy_600 {
+  font-family: "gilroy600";
+}
+.ff_gilroy_700 {
+  font-family: "gilroy700";
+}
+.ff_inter {
+  font-family: "Inter", sans-serif !important;
+}
+.ff_konexy {
+  font-family: "konexy";
 }
 @media (max-width: 576px) {
   :root {

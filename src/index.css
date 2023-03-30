@@ -22,6 +22,10 @@
   font-family: "konexy";
   src: url(../src/assets/font/KonexyPersonal/KonexyPersonalUse.otf);
 }
+* {
+  list-style-type: none !important;
+  text-decoration: none !important;
+}
 
 :root {
   /* font size  */
@@ -33,10 +37,16 @@
   --fs-lg: 18px;
   --fs-md: 16px;
   --fs-sm: 14px;
+  /* font color */
+  --clr-white: #ffffff;
+  --clr-black: #000000;
+  --clr-blue: #6022ea;
+  --clr-darkwhite: #f6f6f6;
 }
 .clr_white {
   color: var(--clr-white) !important;
 }
+
 .clr_black {
   color: var(--clr-black) !important;
 }
@@ -45,6 +55,18 @@
 }
 .bg_blue {
   background-color: var(--clr-blue) !important;
+}
+.bg_white {
+  background-color: var(--clr-white) !important;
+}
+.bg_black {
+  background-color: var(--clr-black) !important;
+}
+.background_black {
+  background: var(--clr-black) !important;
+}
+.bg_darkwhite {
+  background-color: var(--clr-darkwhite) !important;
 }
 .fs_5xl {
   font-size: var(--fs-5xl) !important;

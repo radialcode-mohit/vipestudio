@@ -10,14 +10,14 @@ import wordpress from "../assets/images/img/footer/wordpress.png";
 import pageelogo from "../assets/images/img/footer/pagelogo.png";
 const Footer = () => {
   return (
-    <footer className="bg_black pt-5">
+    <footer className="bg_black pt-lg-5">
       <Container className="pt-5">
         {/* search row  */}
         <Row className="align-items-center">
           <Col>
             <img src={pageelogo} alt="pageelogo" />
           </Col>
-          <Col className="text-end" lg={3}>
+          <Col className="text-end mt-3 mt-lg-0" lg={3}>
             <div className="d-flex py-2 px-4 align-items-center rounded-pill bg_white justify-content-between">
               <input
                 id="input"
@@ -34,7 +34,7 @@ const Footer = () => {
         <Row className="py-5">
           <Col lg={6}>
             <Row>
-              <Col lg={6}>
+              <Col sm={6} lg={6}>
                 <ul className="ps-0">
                   <li className=" position-relative ff_gilroy_400 fs_md clr_white mb-3">
                     Services
@@ -62,7 +62,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </Col>
-              <Col lg={6}>
+              <Col sm={6} lg={6}>
                 <ul className="ps-0">
                   <li className=" position-relative  ff_gilroy_400 fs_md clr_white mb-3">
                     Services
@@ -89,9 +89,9 @@ const Footer = () => {
               </Col>
             </Row>
           </Col>
-          <Col lg={6}>
+          <Col sm={12} lg={6}>
             <Row>
-              <Col lg={6}>
+              <Col sm={6} lg={6}>
                 <ul className="ps-0">
                   <li className=" position-relative  ff_gilroy_400 fs_md clr_white mb-3">
                     Latest Articles
@@ -113,7 +113,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </Col>
-              <Col lg={6}>
+              <Col sm={6} lg={6}>
                 <ul className="ps-0">
                   <li className=" position-relative  ff_gilroy_400 fs_md clr_white mb-3">
                     Contact
@@ -138,7 +138,7 @@ const Footer = () => {
       </Container>
       <div className="bordertop py-4">
         <Container>
-          <Row className="justify-content-between align-items-center">
+          <Row className="justify-content-lg-between align-items-center">
             <Col lg={4}>
               <p className="ff_gilroy_400 fs_sm clr_white">
                 © Vipe Studio 2016-2022
@@ -158,9 +158,9 @@ const Footer = () => {
                 </p>
               </div>
             </Col>
-            <Col lg={4}>
+            <Col xs={12} lg={4}>
               <Row>
-                <Col>
+                <Col xs={4} lg={2}>
                   <a href="#">
                     <img
                       src={github}
@@ -169,7 +169,7 @@ const Footer = () => {
                     />
                   </a>
                 </Col>
-                <Col>
+                <Col xs={4} lg={2}>
                   <a href="#">
                     <img
                       src={linkdin}
@@ -178,7 +178,7 @@ const Footer = () => {
                     />
                   </a>
                 </Col>
-                <Col>
+                <Col xs={4} lg={2}>
                   <a href="#">
                     <img
                       src={tweter}
@@ -187,7 +187,7 @@ const Footer = () => {
                     />
                   </a>
                 </Col>
-                <Col>
+                <Col xs={4} lg={2} className="mt-3 mt-lg-0">
                   <a href="#">
                     <img
                       src={facebook}
@@ -196,12 +196,12 @@ const Footer = () => {
                     />
                   </a>
                 </Col>
-                <Col>
+                <Col xs={4} lg={2} className="mt-3 mt-lg-0">
                   <a href="#">
                     <img src={insta} alt="insta" className="hoverbrightness" />
                   </a>
                 </Col>
-                <Col>
+                <Col xs={4} lg={2} className="mt-3 mt-lg-0">
                   <a href="#">
                     <img
                       src={wordpress}

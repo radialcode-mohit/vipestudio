@@ -8,32 +8,32 @@ const LongTerm = () => {
   return (
     <section className="bg_darkwhite py-5">
       <Container>
-        <p className="ff_konexy fw_400 fs_4xl">
+        <p className="ff_konexy fw_400 fs_4xl text-center text-lg-start">
           Long Term <br /> WordPress Partner
         </p>
-        <p className="ff_gilroy_400  fs_md">
+        <p className="ff_gilroy_400  fs_md text-center text-lg-start">
           Our motto is the long-term partnership – we will not only develop your
           perfect website, but will <br /> be behind you through the whole
           process. They already trusted us:
         </p>
-        <Row className="align-items-center">
-          <Col>
-            <img src={firstimg} alt="firstimg" />
+        <Row className="align-items-center justify-content-center ">
+          <Col xs={6} sm={3} lg={2} className="mt-3">
+            <img className="w-100" src={firstimg} alt="firstimg" />
           </Col>
-          <Col>
-            <img src={secondimg} alt="secondimg" />
+          <Col xs={6} sm={3} lg={2} className="mt-3">
+            <img className="w-100" src={secondimg} alt="secondimg" />
           </Col>
-          <Col>
-            <img src={thirdimg} alt="thirdimg" />
+          <Col xs={6} sm={3} lg={2} className="mt-3">
+            <img className="w-100" src={thirdimg} alt="thirdimg" />
           </Col>
-          <Col>
-            <img src={secondimg} alt="secondimg" />
+          <Col xs={6} sm={3} lg={2} className="mt-3">
+            <img className="w-100" src={secondimg} alt="secondimg" />
           </Col>
-          <Col>
-            <img src={fourthimg} alt="fourthimg" />
+          <Col xs={6} sm={3} lg={2} className="mt-3">
+            <img className="w-100" src={fourthimg} alt="fourthimg" />
           </Col>
-          <Col>
-            <img src={secondimg} alt="secondimg" />
+          <Col xs={6} sm={3} lg={2} className="mt-3">
+            <img className="w-100" src={secondimg} alt="secondimg" />
           </Col>
         </Row>
       </Container>

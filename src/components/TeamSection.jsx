@@ -5,8 +5,8 @@ const TeamSection = () => {
   return (
     <section className="bg_darkwhite">
       <Container>
-        <Row className="align-items-center flex-column-reverse flex-lg-row">
-          <Col lg={6}>
+        <Row className="align-items-center flex-column-reverse flex-lg-row py-5 py-lg-0">
+          <Col lg={6} className="text-center text-lg-start mt-4 mt-lg-0">
             <p className="ff_konexy fw_400 fs_4xl">Team Full of Stars </p>
             <p className="ff_gilroy_400 fs_md">
               Suspendisse consequat egestas arcu et et. Viverra quis euismod

@@ -103,7 +103,7 @@ function OffcanvasExample() {
                 className=" d-inline-block earth d-xxl-none"
               >
                 <Dropdown.ItemText className="ff_gilroy_400 fs_md ">
-                  Dropdown item text
+                  Hin
                 </Dropdown.ItemText>
               </DropdownButton>
               <div
@@ -132,7 +132,7 @@ function OffcanvasExample() {
                 className=" d-inline-block earth"
               >
                 <Dropdown.ItemText className="ff_gilroy_400 fs_md ">
-                  Dropdown item text
+                  Hin
                 </Dropdown.ItemText>
               </DropdownButton>
               {/* </div> */}

@@ -17,17 +17,17 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      {/* <Feature />
-      <Integer />
-      <Studio /> */}
-
       <Hero />
-      {/* <LongTerm />
+      <Feature />
+      <Integer />
+      <Studio />
+
+      <LongTerm />
       <WordPress />
       <TeamSection />
       <SuccessGuide />
       <HaveYou />
-      <Footer /> */}
+      <Footer />
     </>
   );
 }

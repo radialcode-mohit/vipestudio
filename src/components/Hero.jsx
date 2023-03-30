@@ -4,11 +4,13 @@ import team from "../assets/images/img/studio/team.png";
 import startrust from "../assets/images/img/studio/startrust.png";
 import star from "../assets/images/img/studio/star.png";
 import store from "../assets/images/img/studio/playstor.png";
-
+import MyNav from "../components/MyNav";
+import Blur from "../components/Blur";
 const Hero = () => {
   return (
     <>
-      <section className="bg_black py-5 overflow-hidden">
+      <MyNav />
+      <section className="bg_black pt-5 overflow-hidden">
         <Container className="pt-5">
           <Row className="flex-lg-row flex-column-reverse ">
             <Col lg={6}>
@@ -60,6 +62,7 @@ const Hero = () => {
             </Col>
           </Row>
         </Container>
+        <Blur />
       </section>
     </>
   );

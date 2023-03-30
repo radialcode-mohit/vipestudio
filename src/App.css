@@ -131,6 +131,7 @@
     background-color: #000000;
     transition: all 0.2s linear;
     /* filter: blur(25px); */
+    z-index: 500 !important;
   }
   .left_100 {
     left: -100%;
@@ -159,6 +160,9 @@
 }
 @media (max-width: 992px) {
   .transform_transy100px {
+    transform: translateY(0px);
+  }
+  .transform_transy_65 {
     transform: translateY(0px);
   }
 }

@@ -4,12 +4,12 @@ import search from "../assets/images/img/studio/search.png";
 
 const Blur = () => {
   return (
-    <section className="py-5 bg-black">
-      <div className="bg _blur ">
+    <section className="pt-5 bg-black">
+      <div className="bg_blr py-5">
         <Container>
-          <Row>
+          <Row className="align-items-center">
             <Col lg={7}>
-              <div>
+              <div className="text-lg-start text-center">
                 <h2 className="ff_konexy fw_400 fs_2xl clr_white">
                   Tell us more....
                 </h2>
@@ -23,12 +23,15 @@ const Blur = () => {
             <Col lg={5}>
               <div className="d-flex bg_gry justify-content-between align-items-center py-3 px-4">
                 <input
-                  className="outline_0 w_90 bg_trnsprnt"
+                  id="search"
+                  className="outline_0 w_90 bg_trnsprnt clr_white"
                   type="text"
                   placeholder="What do you need assistance with?		"
                 />
                 <div className="bg_ black">
-                  <img src={search} alt="search" />
+                  <a href="#search">
+                    <img src={search} alt="search" />
+                  </a>
                 </div>
               </div>
             </Col>
